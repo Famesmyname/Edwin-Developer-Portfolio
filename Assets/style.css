@@ -1,0 +1,85 @@
+/* [[  UNIVERSAL  ]] */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    color: white;
+    background-color: white;
+}
+
+section:nth-of-type(1) {
+    color: #fff;
+    height: calc(100vh + 53px);
+    padding: 0 10px;
+} 
+
+/* [[ WELCOME PAGE ]]  */
+
+.welcome {
+    padding: 20px;
+    background-color: #2a607c;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height:100vh;
+    Width:100vw;
+}
+
+.welcome h2 .edwin-fame {
+    color: plum;
+}
+
+/* Image full stretch  -  To be modified later
+.welcomeimg {
+    left: 0;
+    top: 0;
+    position: absolute;
+    height:100%;
+    Width:100vw; 
+} */
+
+/* [[ Navigation Bar ]] */
+nav {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: #1b242f;
+    border-bottom: 3px solid plum;
+    height: 50px;
+    text-align: left;
+    width: 100%;
+    z-index: 99;
+}
+
+nav div {
+    color: #2a607c;
+}
+
+nav .link-wrap {
+    background: #333;
+    height: 0;
+    max-width: 1200px;
+    overflow: hidden;
+    position: absolute;
+    top: 53px;
+    transition: height 0.3s ease-out;
+    width: 100%;
+}
+
+nav .section-link {
+    color: white;
+    cursor: pointer;
+}
