@@ -1,16 +1,13 @@
 /* [[  UNIVERSAL  ]] */
-
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-.flex {
-    align-items: center;
+.overflow-wrap > *{
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 body {
@@ -18,15 +15,10 @@ body {
     background-color: white;
 }
 
-section:nth-of-type(1) {
-    color: #fff;
-    height: calc(100vh + 53px);
-    padding: 0 10px;
-} 
-
 /* [[ WELCOME PAGE ]]  */
 
 .welcome {
+    text-align:center;
     padding: 20px;
     background-color: #2a607c;
     color: white;
@@ -36,10 +28,23 @@ section:nth-of-type(1) {
     position: static;
     height:100vh;
     Width:100vw;
+    justify-content: center;
+    align-items: center;
 }
 
-.welcome h2 .edwin-fame {
+.welcome h2 .edwin{
     color: plum;
+}
+
+.welcome a {
+    font-size: 1rem;
+    font-family:monospace;
+    color:white;
+    border-style:solid;
+    border-color:white;
+    border-width:1px;
+    padding:1%;
+
 }
 
 /* Image full stretch  -  To be modified later
@@ -51,19 +56,22 @@ section:nth-of-type(1) {
     Width:100vw; 
 } */
 
-/* [[ Navigation Bar ]] */
+
+/* [[ NAV BAR ]] */
 
 .navbar {
+    border-style: solid;
+    border-color: teal;
+    width:100vw;
     position: sticky;
     background-color: black;
-    justify-content:space-around;
 }
 
 .navbar div {
+    justify-content: space-between;
+    align-items: center;
     position: relative;
-    justify-content:space-around;
-    align-items:center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: monospace ;
     font-size: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -71,10 +79,31 @@ section:nth-of-type(1) {
 }
 
 .navbar div ul {
+    padding-left: 1rem;
+    float: left;
     list-style-type:none;
+    color: whitesmoke;
 }
 
 .navbar div ul li {
+    padding-right: 1rem;
     display: inline-block;
+
+}
+
+
+/* [[ABOUT ME]]  */
+
+.about {
+    background-color: whitesmoke;
+}
+
+.about-header {
+    margin-top: 10%;
+    color:#565A5E;
+    font-family: monospace;
+    font-size: 1rem;
+    text-align: Center;
+    
 
 }
