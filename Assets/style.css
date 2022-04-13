@@ -1,6 +1,4 @@
 /* [[  UNIVERSAL  ]] */
-
-
 *{
     box-sizing: border-box;
     padding: 0;
@@ -59,50 +57,57 @@ body {
 
 
 /* [[ NAV BAR ]] */
-
 .navbar {
+    margin: 0;
+    padding: 0;
     border-style: solid;
     border-color: teal;
     position: sticky;
-    top: 0;
-    left: 0;
-    width: 100vw;
+    /* top: 0;
+    left: 0; */
+    /* width: 100vw; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.5s;
-    padding: 20px 50px;
+    /* transition: 0.5s; */
+    /* padding: 20px 50px; */
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 .navbar .logo {
    position: relative;
    font-weight: 800;
-   color: black;
-   font-size: 3rem;
+   color: plum;
+   font-size: 2rem;
    text-transform: uppercase;
    letter-spacing: 2px;
-   transition: 0.5s;
+   /* transition: 0.5s; */
 }
 
 .navbar ul {
-    position: relative;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .navbar ul li {
-    position: relative;
     list-style: none;
     font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.navbar ul li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .navbar ul li a {
-    position:relative;
     margin: 0 20px;
     text-decoration: none;
     color:#2a607c;
+    display: block;
+    padding: 1rem;
 }
 
 
@@ -139,22 +144,29 @@ body {
 /* [[ABOUT ME]]  */
 
 .about {
-    /* background-color: whitesmoke; */
+    background-color: whitesmoke;
 }
 
 .about-header {
-    /* margin-top: 10%;
+    margin-top: 10%;
     color:#565A5E;
     font-family: monospace;
     font-size: 1rem;
-    text-align: Center; */
+    text-align: Center;
+}
+
+
+/* MY PROJECTS */
+.my-projects {
+    margin-top: 5%;
+    margin-left: 5%
 }
 
 .grid {
     display: grid;
-    width: 100em;
-    grid-gap: 5rem;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    width: 100%;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 5rem));
     align-items: start;
 }
 
@@ -174,22 +186,22 @@ body {
 .card-img {
     display: block;
     width: 100%;
-    height: 20rem;
+    height: 25rem;
     object-fit: cover;
 }
 
 .card-header{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
 }
 
 .card-content {
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .card-text {
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 0.1rem;
     line-height: 1.7;
     color: grey;
@@ -222,4 +234,8 @@ body {
 .card-btn:hover span, .card-btn:active span  {
     margin-left: 1rem;
     color: plum;
+}
+
+.contact-me {
+    margin-top: 5%
 }
