@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="style">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       </head>
 
     <body>
@@ -24,28 +25,96 @@
             <div class="welcomeimg">
                 <img width="1446" height="2046" class="welcomeimg" src="./images/star-shot.jpg"/>
             </div> -->
-             </div>
+            </div>
 
         <!-- Nav Bar -->
-             <div class= "navbar">
-                <div>
-                    <ul>
-                        <li><a href="#welcomepage">Home</a></li>
-                        <li><a href="#aboutme">About</a></li>
-                        <li><a href="#resume">Resume</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                    </ul>
-                </div>
+             <div class= "navbar sticky-top">
+                <div class="logo">EF</div>
+                <ul class="">
+                    <li class=""><a class="" href="#welcomepage">Home</a></li>
+                    <li class=""><a class="" href="#aboutme">About</a></li>
+                    <li class=""><a class="" href="#resume">Resume</a></li>
+                    <li class=""><a class="" href="#projects">Projects</a></li>
+                </ul>
             </div>
         <!-- About Me  -->
-             <div id="aboutme" class="about">
-                 <div class=about-header><h2>ABOUT</h2></div>
+          <div class="content" data-spy="scroll" data-target="#navbar" data-offset="0">   
+            <div id="aboutme" class="about-me container">
+                 <div class="about-header"><h2>ABOUT</h2></div>
+                 <div class="row">
+                    <div class="col-4">Me
+                        <p>I am a full-stack developer, as a recent UCI Coding bootcamp [graduate] I am hoping to use my new skills to work and to further advance those skills by working and learning from more experienced developers.</p>
+                    </div>
+                    <div class="col-8">My Current Skills
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>node.js</li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
+
+            <div class="resume container">Resume</div>
+            <div class="my-projects" id="projects">
+                <h1>My Projects</h1>
+                <div class="grid">
+                <div class="grid-item">
+                    <div class="proj-card">
+                        <img src="./Images/temp-img001.jpg" alt="" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-header">Temporary Placeholder 1</h3>
+                            <p class="card-text">This is a placeholder project for the future.</p>
+                            <button class="card-btn"><span>Learn More</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="proj-card">
+                        <img src="./Images/temp-img002.jpg" alt="" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-header">Temporary Placeholder 2</h3>
+                            <p class="card-text">This is a placeholder project for the future.</p>
+                            <button class="card-btn"><span>Learn More</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="proj-card">
+                        <img src="./Images/temp-img003.jpg" alt="" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-header">Temporary Placeholder 3</h3>
+                            <p class="card-text">This is a placeholder project for the future.</p>
+                            <button class="card-btn"><span>Learn More</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="proj-card">
+                        <img src="./Images/temp-img004.jpg" alt="" class="card-img">
+                        <div class="card-content">
+                            <h3 class="card-header">Temporary Placeholder 4</h3>
+                            <p class="card-text">This is a placeholder project for the future.</p>
+                            <button class="card-btn"><span>Learn More</span></button>
+                        </div>
+                    </div>
+                </div>   
+                </div>
+            </div>
+            <div class="contact-me"><h2>Contact Me</h2>      
+                    <address>
+                    <h4>Email: <a href="mailto:edwinfame@yahoo.com">edwinfame@yahoo.com</a></h4>
+                    <h4>Github: <a href="https://github.com/Famesmyname">https://github.com/Famesmyname</a></h4>
+                    <h4>LinkedIn: <a href="mailto:edwinfame@yahoo.com">IN PROGRESS</a></h4>
+                    </address>
+            </div>
         </div>
-
-
-
-    </body>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
      
 
 
