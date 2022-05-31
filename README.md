@@ -30,6 +30,7 @@ The portfolio currently contains the following sections:
 -   1.00    Added sticky navbar, styled project cards, Added about me info and text
 -   1.10    Switched 3 real projects into placeholder slots, added linkedIn link, fixed sizing, fixed readme
             added self portrait.
+-   1.2     Added more projects and updated about section, updated Github and LinkedIn
 
             
 ## License
