@@ -32,6 +32,10 @@ The portfolio currently contains the following sections:
             added self portrait.
 -   1.2     Added more projects and updated about section, updated Github and LinkedIn
 
+## Contact Me
+
+Contact me by Github https://github.com/Famesmyname/Edwin-Developer-Portfolio
+
             
 ## License
  
